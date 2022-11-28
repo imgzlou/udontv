@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UDocument</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UdonTV INICIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <!--referenciamos al css de fontawesome-->
+    <script src="https://kit.fontawesome.com/05535acec9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper-general">
+        <header>
+            <nav class="menu">
+                <div class="navbar-nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="navegation">
+                        <div class="nav-options">
+                            <ul class="menu-navegation">
+                                <li>
+                                    <a href="index.html">INICIO</a>
+                                </li>
+                                <li>
+                                    <a href="directorio.html">ANIMES</a>
+                                </li>
+                                <li>
+                                    <a href="horarios.html">HORARIOS</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <form action="" method="get">
+                                    <!--name="q" es de query-->
+                                    <input type="text" name="q" id="" placeholder="Buscar...">
+                                    <button>
+                                        <!--boton de la galeria-->
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="login-button">
+                                <input type="checkbox" name="" id="dpwn-login">
+                                <!--dropdown-->
+                                <label for="dpwn-login" class="buttonDpwn-login">
+                                    <!--cuando le demos click al label se active el input-->
+                                    <span class="fa-user">LOGIN</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container-principal">
+            <div class="container-body margin-container">
+                <div class="direction-column">
+                    <div class="Title-section fa-star">
+                        <h1>Lista completa de Animes</h1>
+                    </div>
+                    <main>
+                        <form>
+                            <div class="filters">
+                                <span class="multiselect-filter">
+                                    <div class="btn-multiselect">
+                                        <span class="multiselect-selected-text">
+                                            <b>Genero: </b>
+                                            Todos
+                                        </span>
+                                        <b class="caret"></b>
+                                    </div>
+
+                                    <div class="multiselect-container zoomIn" ref={dropdownGen}>
+
+                                        <div class="select-checkbox">
+                                            <input type="checkbox" />
+                                            <label class="filter-select-checkbox">
+                                            </label>
+                                        </div>
+
+                                    </div>
+
+                                </span>
+                                <button type="submit" class="btn-filter-submit">
+                                    <i class="fas fa-filter"></i> FILTRAR
+                                </button>
+                            </div>
+                        </form>
+                        <ul class="last-animes">
+
+                            <li>
+                                <article class="anime">
+                                    <span class="estreno">
+                                        <span>ESTRENO</span>
+                                    </span>
+                                    <div class="image fa-play-circle-o">
+                                        <figure>
+                                            <img src="./img/chainsaw2.jpg" alt="cover" />
+                                        </figure>
+                                        <span class="type-anime tv">ANIME</span>
+                                    </div>
+                                    <h3 class="title-anime">Chainsaw Man</h3>
+                                </article>
+                            </li>
+                        </ul>
+                        <div>
+                            <div class="pagination">
+                                <a><i class="fas fa-angle-double-left"></i></a>
+                                <a>1</a>
+                                <a>2</a>
+                                <a>3</a>
+                                <a><i class="fas fa-angle-double-right"></i></a>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container-body">
+                <div class="footer-row">
+                    <div>
+                        <p>
+                            <span>UdonTV</span>
+                            - Todos los vídeos se encuentran alojados en nuestros servidores.
+                        </p>
+                        <nav class="terms">
+                            <a href="#">Términos y Condiciones</a>
+                            <a href="#">Política de Privacidad</a>
+                            <a href="#">Sobre AnimeFLV</a>
+                        </nav>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="https://twitter.com/" target="_blank" class="fa-twitter"></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com" target="_blank" class="fa-instagram"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+</html>

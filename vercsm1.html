@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UdonTV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <script src="https://kit.fontawesome.com/05535acec9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper-general">
+        <header>
+            <nav class="menu">
+                <div class="navbar-nav">
+                    <div class="logo">
+                        <a href="">
+                            <img src="img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="navegation">
+                        <div class="nav-options">
+                            <ul class="menu-navegation">
+                                <li>
+                                    <a href="index.html">INICIO</a>
+                                </li>
+                                <li>
+                                    <a href="directorio.html">ANIMES</a>
+                                </li>
+                                <li>
+                                    <a href="horarios.html">HORARIOS</a>
+                                </li>
+                            </ul>
+                            <div class="search">
+                                <form action="" method="get">
+                                    <!--name="q" es de query-->
+                                    <input type="text" name="q" id="" placeholder="Buscar...">
+                                    <button>
+                                        <!--boton de la galeria-->
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="login-button">
+                                <input type="checkbox" name="" id="dpwn-login">
+                                <!--dropdown-->
+                                <label for="dpwn-login" class="buttonDpwn-login">
+                                    <!--cuando le demos click al label se active el input-->
+                                    <span class="fa-user">LOGIN</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container-margin">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="header">
+                        <p>Chainsaw Man</p>
+                    </div>
+                    <br>
+                    <div class="list-option">
+                        <ul class="nav nav-pills nav-justified">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Opcion 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Opcion 2</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="canal">
+                        <iframe src="http://192.168.25.10:8000/csm.ogv" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <br><br><br>
+                    <div class="comentarios">
+                        <form>
+                            <div class="input-group">
+                                <textarea placeholder="Comentar algo..."></textarea>
+                            </div>
+                        </form>
+                        <hr>
+                        <div class="box-comentarios">
+                            <div class="title">
+                                <p>Isaac Míguez Loureiro</p>
+                            </div>
+                            <div class="description">
+                                <p>Increíble episodio!!!! ME ENCANTA Chainsaw Man!!!!!
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="title">
+                                <p>Sara Míguez González</p>
+                            </div>
+                            <div class="description">
+                                <p>Muy pero que muy buen episodio, lo estoy viendo con mi pareja, es muy fan jeje
+                                </p>
+                            </div>
+                            <hr>
+                        </div>
+                        </br>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="container-body">
+                        <div class="footer-row">
+                            <div>
+                                <p>
+                                    <span>UdonTV</span>
+                                    - Todos los vídeos se encuentran alojados en nuestros servidores.
+                                </p>
+                                <nav class="terms">
+                                    <a href="#">Términos y Condiciones</a>
+                                    <a href="#">Política de Privacidad</a>
+                                    <a href="#">Sobre AnimeFLV</a>
+                                </nav>
+                            </div>
+                            <ul class="social">
+                                <li>
+                                    <a href="https://twitter.com/" target="_blank" class="fa-twitter"></a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com" target="_blank" class="fa-instagram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+</body>
+
+</html>
