@@ -1366,5 +1366,44 @@ form textarea {
 	font-size: 15px;
 }
 
-/***************************************************************CALENDARIO EMISION***************************************************************/
+/*************************************************CAPITULOS**************************************************************/
 
+.anime-single {
+    padding-top: 150px;
+}
+
+.thumb {
+    position: relative;
+    width: 200px;
+}
+
+.thumb figure {
+    padding-top: 0;
+}
+
+.thumb figure img {
+    widows: 100%;
+}
+
+.title-animecap {
+    background-color: #bd39cd;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+.padding-legend {
+    padding: 20px;
+}
+
+.list-cap {
+    list-style: none;
+    padding: 0;
+}
+.list-cap-item {
+    padding: 20px;
+}
+
+.list-cap-item a{
+    padding: 10px;
+}
